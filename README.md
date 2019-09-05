@@ -1,3 +1,3 @@
-# myphoneshop-cl6sef
+# My Phone Shop
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/myphoneshop-cl6sef)
+### A simple angular App based on the Angular Getting Started 
