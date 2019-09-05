@@ -1,0 +1,19 @@
+<h2>Products</h2>
+<div *ngFor = "let product of products; let i = index" >
+  <h4>
+    <a [title]="product.name + ' details' " [routerLink] = "['/products', i] ">
+    {{product.name}}
+    </a>
+  </h4>
+  <app-product-alerts
+    [product] = "product"
+    (notify) = "onNotify()"
+    (share) = "share()">
+  </app-product-alerts>
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
